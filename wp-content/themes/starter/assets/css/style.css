@@ -1,0 +1,640 @@
+
+/* header section */
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+}
+.navbar{
+  background-color: black;
+}
+/* scroll button */
+#scrolling {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2FDAB8;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#scrolling:hover {
+    background-color: #555;
+}
+#card {
+  position: fixed;
+  bottom: 80px;
+  right: 0;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor:pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+/* header 2 start*/
+.header-container{
+  height:100px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-container{
+  display: flex;
+  font-size: 1.7rem;
+}
+.collapse{
+  display: flex;
+  justify-content: center;
+}
+.fa-search{
+  color: white;
+}
+.search-container button{
+  margin-left: 5px;
+  border: none;
+  background-color: #2FDAB8;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.search-container button:hover{
+  cursor:pointer;
+}
+.social ul{
+  display:flex;
+  margin-bottom: auto;
+}
+.social li{
+  padding-left: 5px;
+  width: auto;
+  padding-bottom: 0;
+  font-size: 30px;
+}
+.fa-facebook-square{
+  color: blue;
+}
+.fa-twitter-square{
+  color:#1DA1F2;
+}
+.fa-instagram{
+  color:#F77737;
+}
+.fa-linkedin-in{
+  color:#BD8107;
+}
+
+.logo h1{
+  margin: 0;
+  font-weight: bold;
+}
+h5, a{
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.logo h1{
+  font-size:35px;
+  color:black;
+  padding-right: 15px;
+}
+/* header2 end */
+.about{
+  display: none;
+}
+.about-show{
+  display: flex;
+}
+.main-hide{
+  display: none;
+}
+/* header3 start*/
+.menu {
+  padding: 24px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: auto;
+}
+.menu li a:hover{
+  color: #2FDAB8;
+  border-bottom: 0.2px solid #2FDAB8;
+  transition: 0.4s;
+}
+
+.header-container3{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.header-container3 a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;;
+}
+.cart .svg-inline--fa{
+  color: black;
+}
+.cart {
+  width: 15%;
+  margin-right: 80px;
+}
+.cart a{
+  font-size: 2.5rem;
+}
+.cart button{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2FDAB8;
+  border: none;
+  cursor:pointer;
+}
+.cart:hover{
+  border-bottom: 2px solid #EEAB01;
+  border-top: 2px solid #EEAB01;
+}
+.burger {
+  border: none;
+  background: none;
+  display: none;
+}
+span.bar {
+  background-color: white;
+  margin: 3px 0;
+  border-radius: 15px;
+  width: 30px;
+  height: 5px;
+  display: block;
+}
+.hideBurger{
+  background-color: black;
+}
+
+/* submenu css style */
+.sub-menu{
+  display: none;
+  position: absolute;
+  z-index: 9;
+  background: black;
+  top: 100%;
+}
+.sub-menu li a:hover{
+  color: #2FDAB8;
+  transition: 0.3s;
+}
+.sub-menu a{
+  padding-top: 5px;
+}
+.openSubmenu{
+  display: block;
+  padding: 0 15px;
+}
+/* header 3 end */
+/* header section end*/
+
+/* slider image discription */
+.carousel-inner h2{
+  position: absolute;
+  top: 16rem;
+  right: 22rem;
+  letter-spacing: 15px;
+  font-size: 70px;
+  z-index: 2px;
+}
+.carousel-inner h3{
+  padding: 35px;
+  position: absolute;
+  top: 20rem;
+  right: 33rem;
+  letter-spacing: 10px;
+  font-size: 25px;
+  color: #EEAB01;
+  font-weight: bold;
+  z-index: 2px;
+}
+.carousel-inner button{
+  padding: 10px;
+  position: absolute;
+  top: 27rem;
+  right: 43rem;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #2FDAB8;
+  transition: 0.4s;
+}
+.carousel-inner button:hover{
+  border: 3px solid #EEAB01;
+}
+
+/* slider arrows */
+.fa-chevron-circle-left{
+  color:white;
+  font-size: 50px;
+}
+.fa-chevron-circle-right{
+  color:white;
+  font-size: 50px;
+}
+/* main section start */
+/* banner bottom section */
+.banner-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  position: relative;
+}
+.banner-bottom img{
+  max-width: 100%;
+  height: auto;
+}
+.banner-image1 p{
+  font-size: 35px;
+  color: white;
+  letter-spacing: 3px;
+  position: absolute;
+  top:6rem;
+  right: 55rem;
+}
+.banner-image2 p{
+  font-size: 35px;
+  color: white;
+  letter-spacing: 3px;
+  position: absolute;
+  top:6rem;
+  right:8rem;
+}
+.banner-image1:hover{
+  -moz-box-shadow: inset 0 0 10px red;
+  -webkit-box-shadow: inset 0 0 10px red;
+  box-shadow: inset 0 0 10px red;
+}
+
+/* banner bottom 2 start */
+.banner-bottom2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.banner-bottom2 img{
+  max-width: 100%;
+  height: auto;
+}
+.box{
+  width: 40rem;
+  background-color:#2FDAB8;
+  display: flex;
+  align-items: center;
+}
+.discount{
+  background-color: white;
+  text-align: center;
+}
+.discount h3{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.events{
+  display: flex;
+  justify-content: space-around;
+}
+.events li{
+  font-size: 1.3rem;
+}
+.events p{
+  margin: auto;
+}
+
+/* banner bottom sekction 3 */
+
+.thats-tranding{
+  margin-top:80px;
+}
+.thats-tranding h3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 2rem;
+  color: black;
+}
+.trends{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img-trend{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+}
+/* banner section end */
+
+
+/* new arrivals section start */
+.arrivals-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+}
+.head h3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 2rem;
+  color:black;
+}
+.arrival-menu li{
+display: flex;
+flex-wrap: wrap;
+width: 20rem;
+border: 0.1px solid #FC636B;
+margin: 4px;
+}
+.arrival-menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: center;
+}
+.arrival-menu ul a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+  width: 320px;
+}
+.arrival-change-color{
+  background-color: #FC636B;
+}
+.clothes,
+.bags,
+.footwear,
+.woomens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+.hide{
+  display: none!important;
+}
+.clothes li,
+.bags li,
+.footwear li,
+.woomens li{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 4px;
+  /* margin-right: 6px; */
+}
+
+.clothes img,figcaption,p,input{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+figcaption{
+  color: #FC636B;
+}
+.clothes figure,
+.bags figure,
+.footwear figure,
+.woomens figure{
+  padding: 5px;
+  border: 1px solid silver;
+}
+figure input{
+  color: white;
+  border:none;
+  background-color:#2FDAB8;
+  padding: 4px;
+  border-radius: 5px;
+}
+/* .woomens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: -46px;
+}
+.woomens li{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 19rem;
+  margin-right: 6px;
+}
+.woomens figure{
+  padding: 5px;
+  border: 1px solid silver;
+}
+.woomens img,figcaption,p,input{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+} */
+
+
+/* new arrivals section end */
+
+/* freesheeping section start */
+.freesheeping{
+
+}
+.freesheeping ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+  margin: 35px;
+}
+.freesheeping li{
+  display: flex;
+  width: 20rem;
+  margin: 4px;
+  border: 1px solid;
+}
+.icons {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 2.5rem;
+  background-color: black;
+}
+.icons .svg-inline--fa{
+  color: white;
+}
+
+/* footer section start  */
+.black-footer{
+  display: flex;
+  padding-top: 30px;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.black-footer p, h4,h3,h6{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+.black-footer p{
+  color: silver;
+}
+.black-footer ul{
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+.black-footer li{
+  padding-right: 50px;
+  width: 20rem;
+}
+.footer-information ul{
+  display: flex;
+  flex-direction: column;
+}
+.footer-information li{
+  padding-top: 2px;
+  padding-left: 0;
+}
+.footer-information a{
+  color: silver;
+  text-decoration: none;
+}
+.footer-information a:hover{
+  color:#2FDAB8;
+  transition: 0.3s;
+}
+.info{
+  display: flex;
+  margin-bottom: 5px;
+  background-color: #080808;
+}
+.info p,h6{
+  padding: 7px;
+}
+.info h6{
+  font-size: 20px;
+}
+.info-icon{
+  font-size: 20px;
+  color: white;
+  padding:5px 10px;
+}
+.social2 ul{
+  margin-top: auto;
+  padding-left: 0;
+}
+.social2 a{
+  font-size: 2rem;
+}
+.flickr-posts{
+  width: 100%;
+  margin-right: 0;
+}
+
+.flickr-posts ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: auto;
+}
+.flickr-posts li{
+  width: 33%;
+}
+.flickr-posts img{
+  display: flex;
+  justify-content: space-between;
+  width: 5rem;
+  height: 5rem;
+  padding: 5px 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .burger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    height: 50%;
+  }
+  .menu{
+    display: none;
+  }
+  .cart button{
+    background-color: black;
+    height: 0;
+  }
+  .cart .svg-inline--fa{
+    color: white;
+  }
+  .open{
+    display: block!important;
+    margin-left: 35%;
+  }
+  .banner-bottom2 h3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrival-menu{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    width: 100%;
+  }
+  .arrival-menu ul{
+    display: flex;
+    justify-content: center;
+  }
+.arrival-menu li{
+  margin-bottom: 15px;
+}
+.clothes li, .bags li, .footwear li, .woomens li{
+  margin-right: 0;
+}
+  .freesheeping li{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

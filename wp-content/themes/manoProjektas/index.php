@@ -1,0 +1,13 @@
+<?php get_header(); ?>
+		<!-- Banner -->
+			<?php get_template_part('elements/banner'); ?>
+		<!-- Highlights -->
+		  <?php get_template_part('elements/highlights'); ?>
+		<!-- CTA -->
+	   <?php get_template_part('elements/cta'); ?>
+     <!-- wraper -->
+     <?php get_template_part('elements/wraper'); ?>
+		<!-- Testimonials -->
+			<?php get_template_part('elements/testimonials'); ?>
+		<!-- Footer -->
+			<?php get_footer(); ?>
