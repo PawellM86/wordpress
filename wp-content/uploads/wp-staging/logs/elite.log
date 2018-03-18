@@ -1,0 +1,292 @@
+[INFO]-[2018/03/15 12:54:57] DB Copy: Creating table wpstg0_commentmeta like _wpcommentmeta
+[INFO]-[2018/03/15 12:54:57] DB Copy: Creating table wpstg0_comments like _wpcomments
+[INFO]-[2018/03/15 12:54:58] DB Copy: _wpcomments as wpstg0_comments between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:58] DB Copy: Creating table wpstg0_links like _wplinks
+[INFO]-[2018/03/15 12:54:58] DB Copy: Creating table wpstg0_options like _wpoptions
+[INFO]-[2018/03/15 12:54:58] DB Copy: _wpoptions as wpstg0_options between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:59] DB Copy: Creating table wpstg0_postmeta like _wppostmeta
+[INFO]-[2018/03/15 12:54:59] DB Copy: _wppostmeta as wpstg0_postmeta between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:59] DB Copy: Creating table wpstg0_posts like _wpposts
+[INFO]-[2018/03/15 12:55:00] DB Copy: _wpposts as wpstg0_posts between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:00] DB Copy: Creating table wpstg0_term_relationships like _wpterm_relationships
+[INFO]-[2018/03/15 12:55:00] DB Copy: _wpterm_relationships as wpstg0_term_relationships between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:00] DB Copy: Creating table wpstg0_term_taxonomy like _wpterm_taxonomy
+[INFO]-[2018/03/15 12:55:01] DB Copy: _wpterm_taxonomy as wpstg0_term_taxonomy between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:01] DB Copy: Creating table wpstg0_termmeta like _wptermmeta
+[INFO]-[2018/03/15 12:55:01] DB Copy: Creating table wpstg0_terms like _wpterms
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpterms as wpstg0_terms between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_usermeta like _wpusermeta
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpusermeta as wpstg0_usermeta between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_users like _wpusers
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpusers as wpstg0_users between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_wc_download_log like _wpwc_download_log
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_wc_webhooks like _wpwc_webhooks
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_woocommerce_api_keys like _wpwoocommerce_api_keys
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_woocommerce_attribute_taxonomies like _wpwoocommerce_attribute_taxonomies
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_downloadable_product_permissions like _wpwoocommerce_downloadable_product_permissions
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_log like _wpwoocommerce_log
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_order_itemmeta like _wpwoocommerce_order_itemmeta
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_order_items like _wpwoocommerce_order_items
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_payment_tokenmeta like _wpwoocommerce_payment_tokenmeta
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_payment_tokens like _wpwoocommerce_payment_tokens
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_sessions like _wpwoocommerce_sessions
+[INFO]-[2018/03/15 12:55:06] DB Copy: _wpwoocommerce_sessions as wpstg0_woocommerce_sessions between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zone_locations like _wpwoocommerce_shipping_zone_locations
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zone_methods like _wpwoocommerce_shipping_zone_methods
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zones like _wpwoocommerce_shipping_zones
+[INFO]-[2018/03/15 12:55:07] DB Copy: Creating table wpstg0_woocommerce_tax_rate_locations like _wpwoocommerce_tax_rate_locations
+[INFO]-[2018/03/15 12:55:07] DB Copy: Creating table wpstg0_woocommerce_tax_rates like _wpwoocommerce_tax_rates
+[INFO]-[2018/03/15 12:54:57] DB Copy: Creating table wpstg0_commentmeta like _wpcommentmeta
+[INFO]-[2018/03/15 12:54:57] DB Copy: Creating table wpstg0_comments like _wpcomments
+[INFO]-[2018/03/15 12:54:58] DB Copy: _wpcomments as wpstg0_comments between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:58] DB Copy: Creating table wpstg0_links like _wplinks
+[INFO]-[2018/03/15 12:54:58] DB Copy: Creating table wpstg0_options like _wpoptions
+[INFO]-[2018/03/15 12:54:58] DB Copy: _wpoptions as wpstg0_options between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:59] DB Copy: Creating table wpstg0_postmeta like _wppostmeta
+[INFO]-[2018/03/15 12:54:59] DB Copy: _wppostmeta as wpstg0_postmeta between 0 to 5000 records
+[INFO]-[2018/03/15 12:54:59] DB Copy: Creating table wpstg0_posts like _wpposts
+[INFO]-[2018/03/15 12:55:00] DB Copy: _wpposts as wpstg0_posts between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:00] DB Copy: Creating table wpstg0_term_relationships like _wpterm_relationships
+[INFO]-[2018/03/15 12:55:00] DB Copy: _wpterm_relationships as wpstg0_term_relationships between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:00] DB Copy: Creating table wpstg0_term_taxonomy like _wpterm_taxonomy
+[INFO]-[2018/03/15 12:55:01] DB Copy: _wpterm_taxonomy as wpstg0_term_taxonomy between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:01] DB Copy: Creating table wpstg0_termmeta like _wptermmeta
+[INFO]-[2018/03/15 12:55:01] DB Copy: Creating table wpstg0_terms like _wpterms
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpterms as wpstg0_terms between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_usermeta like _wpusermeta
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpusermeta as wpstg0_usermeta between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_users like _wpusers
+[INFO]-[2018/03/15 12:55:02] DB Copy: _wpusers as wpstg0_users between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:02] DB Copy: Creating table wpstg0_wc_download_log like _wpwc_download_log
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_wc_webhooks like _wpwc_webhooks
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_woocommerce_api_keys like _wpwoocommerce_api_keys
+[INFO]-[2018/03/15 12:55:03] DB Copy: Creating table wpstg0_woocommerce_attribute_taxonomies like _wpwoocommerce_attribute_taxonomies
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_downloadable_product_permissions like _wpwoocommerce_downloadable_product_permissions
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_log like _wpwoocommerce_log
+[INFO]-[2018/03/15 12:55:04] DB Copy: Creating table wpstg0_woocommerce_order_itemmeta like _wpwoocommerce_order_itemmeta
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_order_items like _wpwoocommerce_order_items
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_payment_tokenmeta like _wpwoocommerce_payment_tokenmeta
+[INFO]-[2018/03/15 12:55:05] DB Copy: Creating table wpstg0_woocommerce_payment_tokens like _wpwoocommerce_payment_tokens
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_sessions like _wpwoocommerce_sessions
+[INFO]-[2018/03/15 12:55:06] DB Copy: _wpwoocommerce_sessions as wpstg0_woocommerce_sessions between 0 to 5000 records
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zone_locations like _wpwoocommerce_shipping_zone_locations
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zone_methods like _wpwoocommerce_shipping_zone_methods
+[INFO]-[2018/03/15 12:55:06] DB Copy: Creating table wpstg0_woocommerce_shipping_zones like _wpwoocommerce_shipping_zones
+[INFO]-[2018/03/15 12:55:07] DB Copy: Creating table wpstg0_woocommerce_tax_rate_locations like _wpwoocommerce_tax_rate_locations
+[INFO]-[2018/03/15 12:55:07] DB Copy: Creating table wpstg0_woocommerce_tax_rates like _wpwoocommerce_tax_rates
+[]-[] 
+[]-[] 
+[INFO]-[2018/03/15 12:55:12] Scanning D:\MAMP\Dombaze\htdocs\wordpress/ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:12] Scanning D:\MAMP\Dombaze\htdocs\wordpress/ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:14] Scanning wp-content\index.php for its sub-directories and files
+[INFO]-[2018/03/15 12:55:14] Scanning wp-content\index.php for its sub-directories and files
+[INFO]-[2018/03/15 12:55:16] Scanning D:\MAMP\Dombaze\htdocs\wordpress/wp-includes\ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:16] Scanning D:\MAMP\Dombaze\htdocs\wordpress/wp-includes\ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:19] Scanning D:\MAMP\Dombaze\htdocs\wordpress/wp-admin\ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:19] Scanning D:\MAMP\Dombaze\htdocs\wordpress/wp-admin\ for its sub-directories and files
+[INFO]-[2018/03/15 12:55:22] Copying files...
+[INFO]-[2018/03/15 12:55:22] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/.htaccess
+[INFO]-[2018/03/15 12:55:23] Total 50 files processed
+[INFO]-[2018/03/15 12:55:25] Total 100 files processed
+[INFO]-[2018/03/15 12:55:25] Total 150 files processed
+[INFO]-[2018/03/15 12:55:25] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\plugins\akismet\.htaccess
+[INFO]-[2018/03/15 12:55:27] Total 200 files processed
+[INFO]-[2018/03/15 12:55:27] Total 250 files processed
+[INFO]-[2018/03/15 12:55:28] Total 300 files processed
+[INFO]-[2018/03/15 12:55:28] Total 350 files processed
+[INFO]-[2018/03/15 12:55:29] Total 400 files processed
+[INFO]-[2018/03/15 12:55:30] Total 450 files processed
+[INFO]-[2018/03/15 12:55:32] Total 500 files processed
+[INFO]-[2018/03/15 12:55:22] Copying files...
+[INFO]-[2018/03/15 12:55:22] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/.htaccess
+[INFO]-[2018/03/15 12:55:23] Total 50 files processed
+[INFO]-[2018/03/15 12:55:25] Total 100 files processed
+[INFO]-[2018/03/15 12:55:25] Total 150 files processed
+[INFO]-[2018/03/15 12:55:25] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\plugins\akismet\.htaccess
+[INFO]-[2018/03/15 12:55:27] Total 200 files processed
+[INFO]-[2018/03/15 12:55:27] Total 250 files processed
+[INFO]-[2018/03/15 12:55:28] Total 300 files processed
+[INFO]-[2018/03/15 12:55:28] Total 350 files processed
+[INFO]-[2018/03/15 12:55:29] Total 400 files processed
+[INFO]-[2018/03/15 12:55:30] Total 450 files processed
+[INFO]-[2018/03/15 12:55:32] Total 500 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:55:36] Total 550 files processed
+[INFO]-[2018/03/15 12:55:39] Total 600 files processed
+[INFO]-[2018/03/15 12:55:42] Total 650 files processed
+[INFO]-[2018/03/15 12:55:43] Total 700 files processed
+[INFO]-[2018/03/15 12:55:44] Total 750 files processed
+[INFO]-[2018/03/15 12:55:45] Total 800 files processed
+[INFO]-[2018/03/15 12:55:46] Total 850 files processed
+[INFO]-[2018/03/15 12:55:47] Total 900 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:55:36] Total 550 files processed
+[INFO]-[2018/03/15 12:55:39] Total 600 files processed
+[INFO]-[2018/03/15 12:55:42] Total 650 files processed
+[INFO]-[2018/03/15 12:55:43] Total 700 files processed
+[INFO]-[2018/03/15 12:55:44] Total 750 files processed
+[INFO]-[2018/03/15 12:55:45] Total 800 files processed
+[INFO]-[2018/03/15 12:55:46] Total 850 files processed
+[INFO]-[2018/03/15 12:55:47] Total 900 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:55:50] Total 950 files processed
+[INFO]-[2018/03/15 12:55:51] Total 1000 files processed
+[INFO]-[2018/03/15 12:55:52] Total 1050 files processed
+[INFO]-[2018/03/15 12:55:53] Total 1100 files processed
+[INFO]-[2018/03/15 12:55:55] Total 1150 files processed
+[INFO]-[2018/03/15 12:55:55] Total 1200 files processed
+[INFO]-[2018/03/15 12:55:56] Total 1250 files processed
+[INFO]-[2018/03/15 12:55:57] Total 1300 files processed
+[INFO]-[2018/03/15 12:55:58] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\manoProjektas\assets\images\banner.mp4
+[INFO]-[2018/03/15 12:55:58] Total 1350 files processed
+[INFO]-[2018/03/15 12:55:59] Total 1400 files processed
+[INFO]-[2018/03/15 12:56:01] Total 1450 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:55:50] Total 950 files processed
+[INFO]-[2018/03/15 12:55:51] Total 1000 files processed
+[INFO]-[2018/03/15 12:55:52] Total 1050 files processed
+[INFO]-[2018/03/15 12:55:53] Total 1100 files processed
+[INFO]-[2018/03/15 12:55:55] Total 1150 files processed
+[INFO]-[2018/03/15 12:55:55] Total 1200 files processed
+[INFO]-[2018/03/15 12:55:56] Total 1250 files processed
+[INFO]-[2018/03/15 12:55:57] Total 1300 files processed
+[INFO]-[2018/03/15 12:55:58] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\manoProjektas\assets\images\banner.mp4
+[INFO]-[2018/03/15 12:55:58] Total 1350 files processed
+[INFO]-[2018/03/15 12:55:59] Total 1400 files processed
+[INFO]-[2018/03/15 12:56:01] Total 1450 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:03] Total 1500 files processed
+[INFO]-[2018/03/15 12:56:04] Total 1550 files processed
+[INFO]-[2018/03/15 12:56:05] Total 1600 files processed
+[INFO]-[2018/03/15 12:56:06] Total 1650 files processed
+[INFO]-[2018/03/15 12:56:06] Total 1700 files processed
+[INFO]-[2018/03/15 12:56:08] Total 1750 files processed
+[INFO]-[2018/03/15 12:56:09] Total 1800 files processed
+[INFO]-[2018/03/15 12:56:10] Total 1850 files processed
+[INFO]-[2018/03/15 12:56:10] Total 1900 files processed
+[INFO]-[2018/03/15 12:56:11] Total 1950 files processed
+[INFO]-[2018/03/15 12:56:12] Total 2000 files processed
+[INFO]-[2018/03/15 12:56:13] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\vcs-starter\assets\images\banner.mp4
+[INFO]-[2018/03/15 12:56:13] Total 2050 files processed
+[INFO]-[2018/03/15 12:56:13] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\vcs-starter\elements\images\banner.mp4
+[INFO]-[2018/03/15 12:56:13] Total 2100 files processed
+[INFO]-[2018/03/15 12:56:13] Total 2150 files processed
+[INFO]-[2018/03/15 12:56:14] Total 2200 files processed
+[INFO]-[2018/03/15 12:56:14] Total 2250 files processed
+[INFO]-[2018/03/15 12:56:15] Total 2300 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:03] Total 1500 files processed
+[INFO]-[2018/03/15 12:56:04] Total 1550 files processed
+[INFO]-[2018/03/15 12:56:05] Total 1600 files processed
+[INFO]-[2018/03/15 12:56:06] Total 1650 files processed
+[INFO]-[2018/03/15 12:56:06] Total 1700 files processed
+[INFO]-[2018/03/15 12:56:08] Total 1750 files processed
+[INFO]-[2018/03/15 12:56:09] Total 1800 files processed
+[INFO]-[2018/03/15 12:56:10] Total 1850 files processed
+[INFO]-[2018/03/15 12:56:10] Total 1900 files processed
+[INFO]-[2018/03/15 12:56:11] Total 1950 files processed
+[INFO]-[2018/03/15 12:56:12] Total 2000 files processed
+[INFO]-[2018/03/15 12:56:13] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\vcs-starter\assets\images\banner.mp4
+[INFO]-[2018/03/15 12:56:13] Total 2050 files processed
+[INFO]-[2018/03/15 12:56:13] Skipping big file: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\themes\vcs-starter\elements\images\banner.mp4
+[INFO]-[2018/03/15 12:56:13] Total 2100 files processed
+[INFO]-[2018/03/15 12:56:13] Total 2150 files processed
+[INFO]-[2018/03/15 12:56:14] Total 2200 files processed
+[INFO]-[2018/03/15 12:56:14] Total 2250 files processed
+[INFO]-[2018/03/15 12:56:15] Total 2300 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:17] Total 2350 files processed
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wc-logs\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wc-logs\fatal-errors-5682a899374f9ef8dd76a711e008d39f.log
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\woocommerce_uploads\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wp-migrate-db\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wp-staging\logs\elite.log
+[INFO]-[2018/03/15 12:56:18] Total 2400 files processed
+[INFO]-[2018/03/15 12:56:19] Total 2450 files processed
+[INFO]-[2018/03/15 12:56:20] Total 2500 files processed
+[INFO]-[2018/03/15 12:56:22] Total 2550 files processed
+[INFO]-[2018/03/15 12:56:23] Total 2600 files processed
+[INFO]-[2018/03/15 12:56:23] Total 2650 files processed
+[INFO]-[2018/03/15 12:56:24] Total 2700 files processed
+[INFO]-[2018/03/15 12:56:25] Total 2750 files processed
+[INFO]-[2018/03/15 12:56:26] Total 2800 files processed
+[INFO]-[2018/03/15 12:56:27] Total 2850 files processed
+[INFO]-[2018/03/15 12:56:28] Total 2900 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:17] Total 2350 files processed
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wc-logs\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wc-logs\fatal-errors-5682a899374f9ef8dd76a711e008d39f.log
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\woocommerce_uploads\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wp-migrate-db\.htaccess
+[INFO]-[2018/03/15 12:56:17] Skipping file by rule: D:\MAMP\Dombaze\htdocs\wordpress/wp-content\uploads\wp-staging\logs\elite.log
+[INFO]-[2018/03/15 12:56:18] Total 2400 files processed
+[INFO]-[2018/03/15 12:56:19] Total 2450 files processed
+[INFO]-[2018/03/15 12:56:20] Total 2500 files processed
+[INFO]-[2018/03/15 12:56:22] Total 2550 files processed
+[INFO]-[2018/03/15 12:56:23] Total 2600 files processed
+[INFO]-[2018/03/15 12:56:23] Total 2650 files processed
+[INFO]-[2018/03/15 12:56:24] Total 2700 files processed
+[INFO]-[2018/03/15 12:56:25] Total 2750 files processed
+[INFO]-[2018/03/15 12:56:26] Total 2800 files processed
+[INFO]-[2018/03/15 12:56:27] Total 2850 files processed
+[INFO]-[2018/03/15 12:56:28] Total 2900 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:30] Total 2950 files processed
+[INFO]-[2018/03/15 12:56:32] Total 3000 files processed
+[INFO]-[2018/03/15 12:56:32] Total 3050 files processed
+[INFO]-[2018/03/15 12:56:33] Total 3100 files processed
+[INFO]-[2018/03/15 12:56:35] Total 3150 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3200 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3250 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3300 files processed
+[INFO]-[2018/03/15 12:56:39] Total 3350 files processed
+[INFO]-[2018/03/15 12:56:39] Total 3400 files processed
+[INFO]-[2018/03/15 12:56:41] Total 3450 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:30] Total 2950 files processed
+[INFO]-[2018/03/15 12:56:32] Total 3000 files processed
+[INFO]-[2018/03/15 12:56:32] Total 3050 files processed
+[INFO]-[2018/03/15 12:56:33] Total 3100 files processed
+[INFO]-[2018/03/15 12:56:35] Total 3150 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3200 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3250 files processed
+[INFO]-[2018/03/15 12:56:37] Total 3300 files processed
+[INFO]-[2018/03/15 12:56:39] Total 3350 files processed
+[INFO]-[2018/03/15 12:56:39] Total 3400 files processed
+[INFO]-[2018/03/15 12:56:41] Total 3450 files processed
+[]-[] 
+[INFO]-[2018/03/15 12:56:47] Total 3500 files processed
+[INFO]-[2018/03/15 12:56:48] Total 3550 files processed
+[INFO]-[2018/03/15 12:56:49] Total 3600 files processed
+[INFO]-[2018/03/15 12:56:51] Total 3650 files processed
+[INFO]-[2018/03/15 12:56:53] Copying files finished
+[]-[] 
+[INFO]-[2018/03/15 12:56:47] Total 3500 files processed
+[INFO]-[2018/03/15 12:56:48] Total 3550 files processed
+[INFO]-[2018/03/15 12:56:49] Total 3600 files processed
+[INFO]-[2018/03/15 12:56:51] Total 3650 files processed
+[INFO]-[2018/03/15 12:56:53] Copying files finished
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating siteurl and homeurl in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace:: Updating siteurl and homeurl to http://localhost/wordpress/elite
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating row wpstg_is_staging_site in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating rewrite_rules in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating wpstg0_usermeta db prefix 
+[INFO]-[2018/03/15 12:56:55] Updating wpstg0_options, option_name database table prefixes; 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating table_prefix in D:\MAMP\Dombaze\htdocs\wordpress/elite/wp-config.php to wpstg0_
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating siteurl and homeurl in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace:: Updating siteurl and homeurl to http://localhost/wordpress/elite
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating row wpstg_is_staging_site in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating rewrite_rules in wpstg0_options 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating wpstg0_usermeta db prefix 
+[INFO]-[2018/03/15 12:56:55] Updating wpstg0_options, option_name database table prefixes; 
+[INFO]-[2018/03/15 12:56:55] Search & Replace: Updating table_prefix in D:\MAMP\Dombaze\htdocs\wordpress/elite/wp-config.php to wpstg0_
+[]-[] 
+[]-[] 
+[INFO]-[2018/03/15 12:56:58] Finish: Deleting clone job's cache files...
+[INFO]-[2018/03/15 12:56:58] Finish: Clone job's cache files have been deleted!
+[INFO]-[2018/03/15 12:56:58] Finish: Verifying existing clones...
+[INFO]-[2018/03/15 12:56:58] Finish: elite's clone job's data is not in database, generating data
+[INFO]-[2018/03/15 12:56:58] Finish: Deleting clone job's cache files...
+[INFO]-[2018/03/15 12:56:58] Finish: Clone job's cache files have been deleted!
+[INFO]-[2018/03/15 12:56:58] Finish: Verifying existing clones...
+[INFO]-[2018/03/15 12:56:58] Finish: elite's clone job's data is not in database, generating data

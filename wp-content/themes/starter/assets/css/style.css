@@ -20,7 +20,7 @@ li{
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #2FDAB8;
+    background-color: red;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -30,23 +30,9 @@ li{
 #scrolling:hover {
     background-color: #555;
 }
-#card {
-  position: fixed;
-  bottom: 80px;
-  right: 0;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor:pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 16px;
-}
 /* header 2 start*/
 .header-container{
-  height:100px;
+  height: 90px;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -112,15 +98,7 @@ h5, a{
   padding-right: 15px;
 }
 /* header2 end */
-.about{
-  display: none;
-}
-.about-show{
-  display: flex;
-}
-.main-hide{
-  display: none;
-}
+
 /* header3 start*/
 .menu {
   padding: 24px 0;
@@ -168,10 +146,6 @@ h5, a{
   background: #2FDAB8;
   border: none;
   cursor:pointer;
-}
-.cart:hover{
-  border-bottom: 2px solid #EEAB01;
-  border-top: 2px solid #EEAB01;
 }
 .burger {
   border: none;
@@ -332,9 +306,9 @@ span.bar {
 
 /* banner bottom sekction 3 */
 
-.thats-tranding{
+/* .thats-tranding{
   margin-top:80px;
-}
+} */
 .thats-tranding h3{
   display: flex;
   justify-content: center;
@@ -353,7 +327,12 @@ span.bar {
   flex-wrap: wrap;
   max-width: 100%;
   height: auto;
-  padding: 5px;
+  padding: 8px;
+  border: 1px solid;
+}
+.img-trend:hover{
+  transition: 0.5s;
+  background-color: black;
 }
 /* banner section end */
 
@@ -396,6 +375,10 @@ margin: 4px;
   padding: 15px;
   font-weight: bold;
   width: 320px;
+}
+.arrival-menu ul a:hover{
+  transition: 0.3s;
+  background-color: #FC636B;
 }
 .arrival-change-color{
   background-color: #FC636B;
@@ -447,38 +430,16 @@ figure input{
   padding: 4px;
   border-radius: 5px;
 }
-/* .woomens{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 0;
-  margin-top: -46px;
+figure input:hover{
+background-color: #EEAB01;
+transition: 0.4s;
 }
-.woomens li{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 19rem;
-  margin-right: 6px;
-}
-.woomens figure{
-  padding: 5px;
-  border: 1px solid silver;
-}
-.woomens img,figcaption,p,input{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  cursor: pointer;
-} */
 
 
 /* new arrivals section end */
 
 /* freesheeping section start */
-.freesheeping{
 
-}
 .freesheeping ul{
   display: flex;
   flex-wrap: wrap;
@@ -522,13 +483,16 @@ figure input{
 }
 .black-footer ul{
   display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   padding-left: 0;
 }
 .black-footer li{
   padding-right: 50px;
   width: 20rem;
+}
+.social2 ul{
+  display: inline;
 }
 .footer-information ul{
   display: flex;
@@ -562,9 +526,11 @@ figure input{
   color: white;
   padding:5px 10px;
 }
-.social2 ul{
-  margin-top: auto;
-  padding-left: 0;
+.social2 ul li{
+  width: 2rem;
+  padding-right: 5px;
+  margin-right: 0;
+ display: inline-block;
 }
 .social2 a{
   font-size: 2rem;
@@ -591,22 +557,169 @@ figure input{
   padding: 5px 2px;
 }
 
-@media only screen and (max-width: 700px) {
+/* about category styles start*/
+.about-us img,
+.excl-img img,
+.womens-wear img{
+  height: 50%;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.about-us p,
+.exclusive p,
+.womens-wear p,
+.contact-category p{
+  position: absolute;
+  font-size: 50px;
+  letter-spacing: 8px;
+  font-weight: bold;
+  top: 20rem;
+  left: 34rem;
+  color: white;
+}
+.about-us2,
+.collection,
+.exclusive-womens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.about-us2 img{
+  width: 40rem;
+  height: 25rem;
+  padding: 10px;
+}
+.about-text,
+.womens-collection{
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+.about-text p,
+.womens-collection p{
+  margin-top: 50px;
+  font-size: 20px;
+}
+.our-team{
+  padding-left: 0;
+}
+.our-team-text{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.our-team ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0;
+}
+.our-team img{
+  width: 22rem;
+  padding: 5px;
+}
+/* about category styles end*/
+
+/* mens category styles start*/
+.collection img,
+.exclusive-womens img{
+  height: 30rem;
+  padding: 10px;
+}
+/* mens category styles end*/
+/* contact category styles start*/
+
+.find-us ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.find-us li{
+  border: 1px solid black;
+  width: 25rem;
+  height: 18rem;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #171616;
+}
+.h1 {
+  font-size: 30px!important;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #2FDAB8!important;
+}
+.find-us p{
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+.form-container{
+  background-color: #171616;
+}
+.heading-container{
+  width: 800px;
+}
+.heading-container p{
+  background-color: #171616;
+  margin-bottom: 0;
+  font-size: 30px;
+  color: white;
+}
+.contact-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.form-container input{
+  width: 800px;
+  border:none;
+  border-bottom: 1px solid silver;
+  padding:16px;
+  font-size: 16px;
+  background-color: #171616;
+}
+.form-container button{
+  margin-top: 16px;
+  background-color: #2FDAB8;
+  color: white ;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.form-container button:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu li a:hover{
+    border-bottom: none;
+  }
   .burger {
     display: block;
     cursor: pointer;
     padding: 10px;
     height: 50%;
   }
+  .header-container{
+    height: auto;
+  }
   .menu{
     display: none;
   }
   .cart button{
-    background-color: black;
-    height: 0;
+    display: none;
   }
-  .cart .svg-inline--fa{
-    color: white;
+  .discount{
+    background-color: #2FDAB8;
   }
   .open{
     display: block!important;
@@ -616,7 +729,9 @@ figure input{
     display: flex;
     justify-content: center;
   }
-
+  .arrivals-container{
+    margin-top: -90px;
+  }
   .arrival-menu{
     margin-left: 0!important;
     margin-right: 0!important;
@@ -626,15 +741,36 @@ figure input{
     display: flex;
     justify-content: center;
   }
-.arrival-menu li{
-  margin-bottom: 15px;
-}
-.clothes li, .bags li, .footwear li, .woomens li{
-  margin-right: 0;
-}
+  .arrival-menu li{
+    margin-bottom: 15px;
+  }
+  .clothes li, .bags li, .footwear li, .woomens li{
+    margin-right: 0;
+  }
   .freesheeping li{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+  }
+  .social2,
+  .footer-information,
+  .store-info{
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  .about-text h2{
+    display: flex;
+    justify-content: center;
+  }
+  .womens-collection h2,p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .find-us ul{
+    padding-left: 0;
+  }
+  .form-container{
+    width: 100%;
   }
 }

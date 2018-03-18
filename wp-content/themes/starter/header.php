@@ -22,9 +22,6 @@
     <!-- scroll button -->
     <button onclick="topFunction()" id="scrolling" title="Go to top">Top</button>
 
-    <button onclick="topFunction()" id="card" title="Go to top">Card</button>
-
-
     <!-- login modal window -->
     <?php get_template_part('elements/signInModalWindow'); ?>
 
@@ -51,7 +48,6 @@
       </div>
     </div>
 
-
     <!-- /* header3 start*/ -->
     <div class="header-container3">
       <?php
@@ -70,9 +66,7 @@
       </button>
     </div>
   </header>
-  <section class="about">
-    <?php get_template_part('elements/about'); ?>
-  </section>
-</body>
+
+
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <!-- navigation section end-->

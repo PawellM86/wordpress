@@ -6,6 +6,7 @@
 $slider = new WP_Query( $slider_args );
  ?>
 
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <?php for($i = 0; $i < $slider->post_count; $i++):  ?>

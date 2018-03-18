@@ -1,6 +1,11 @@
 <footer>
-
   <!-- footer section start -->
+  <?php $$flickr_args = array(
+    'post_type' =>'flickr_posts',
+    'post_per_page' => -1,
+  );
+  $flickr = new WP_Query( $$flickr_args );
+   ?>
   <section class="black-footer">
     <ul>
       <li>
@@ -27,7 +32,7 @@
           </ul>
         </div>
       </li>
-      <li>
+      <li class="store-info">
         <h4>STORE INFORMATION</h4>
         <div class="info">
           <div class="info-icon">
@@ -58,29 +63,20 @@
           </div>
       </li>
       <li>
-
         <div class="flickr-posts">
             <div >
               <h4>FLICKR POSTS</h4>
             </div>
               <ul>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t1.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t2.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t3.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t4.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t1.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t2.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t3.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t4.jpg" alt=""></li>
-            <li><img src="http://localhost/wordpress/wp-content/themes/starter/assets/images/t1.jpg" alt=""></li>
+                <?php while( $flickr->have_posts()) : $flickr->the_post();  ?>
+            <li><img src="<?php the_post_thumbnail_url(); ?>" alt=""></li>
+          <?php endwhile; ?>
           </ul>
         </div>
       </li>
     </ul>
-
   </section>
 
 </footer>
-<?php wp_footer(); ?>
-</body>
+  <?php wp_footer(); ?>
 </html>

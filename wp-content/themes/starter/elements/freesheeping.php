@@ -39,4 +39,5 @@
     </li>
   </ul>
 </section>
+</body>
 <!-- section freesheeping end -->

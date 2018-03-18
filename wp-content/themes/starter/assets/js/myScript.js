@@ -4,17 +4,18 @@ jQuery(document).ready(function($){
   });
 
   // submenu
-  $(".menu li").click(function (event) {
-    event.preventDefault();
-    $(".menu li").find('ul.sub-menu').removeClass('openSubmenu');
-    $(this).find('ul.sub-menu').toggleClass('openSubmenu');
-    $(this).find('ul.sub-menu').toggleClass('hide');
-  });
+  // $(".menu li").click(function (event) {
+  //   event.preventDefault();
+  //   $(".menu li").find('ul.sub-menu').removeClass('openSubmenu');
+  //   $(this).find('ul.sub-menu').toggleClass('openSubmenu');
+  //   $(this).find('ul.sub-menu').toggleClass('hide');
+  // });
 
 //about section show
   // $(".menu-item-135").click(function (event) {
   //   event.preventDefault();
-  //   $(".about").toggleClass('about-show');
+  //   $("#carouselExampleIndicators").toggleClass('main-hide');
+  //   // $("#.about-category").toggleClass('about-show');
   // });
 
   // scrolling
@@ -31,18 +32,6 @@ jQuery(document).ready(function($){
            document.getElementById("scrolling").style.display = "none";
        }
    }
-// card button
-  var button = document.querySelector('.want-buy');
-  button.addEventListener('click', calculate);
-  var price = +document.querySelector('.price').value;
-  var counter = 0;
-
-  function calculate(event) {
-    event.preventDefault();
-    var counter = price + counter;
-    return counter;
-  }
-console.log(price);
 
 
 // woomens arrivals start
@@ -56,12 +45,5 @@ console.log(price);
      $('.list').addClass('hide');
      $( selector ).removeClass('hide');
    });
-
-// woomens arrivals end
-
-
-
-
-
 
 });
